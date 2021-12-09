@@ -1,1 +1,1 @@
-# basketball-shot-tracker
+This is a basic website that will allow you to calculate your field goal %, the ratio of field goals made to field goals attempted, in percent form. This website can be used to determine how well you are shooting the ball.
