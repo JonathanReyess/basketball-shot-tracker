@@ -1,0 +1,94 @@
+div {
+  text-align: center;
+  font-size: 25px;
+}
+
+input[type="text"] {
+  background-color: white;
+  border: solid black 2px;
+  font-size: 90px;
+  text-align: center;
+  height: 100px;
+  width: 97.5%;
+}
+
+.button {
+  background-color: #ffffff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height: 130px;
+  width: 98%;
+}
+
+.button2 {
+  background-color: #ffffff;
+}
+.button3 {
+  background-color: #23c030;
+}
+.button4 {
+  background-color: #c02823;
+}
+
+.button1 {
+  transition-duration: 0.4s;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button1:active {
+  background-color: #23c030;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button2 {
+  transition-duration: 0.4s;
+}
+
+.button2:hover {
+  background-color: #c02823;
+  color: white;
+}
+
+.button2:active {
+  background-color: #c02823;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button3 {
+  transition-duration: 0.4s;
+}
+
+.button3:hover {
+  background-color: #ffffff;
+  color: #23c030;
+}
+
+.button3:active {
+  background-color: #ffffff;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button4:hover {
+  background-color: #ffffff;
+  color: #c02823;
+}
+
+.button4:active {
+  background-color: #ffffff;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
