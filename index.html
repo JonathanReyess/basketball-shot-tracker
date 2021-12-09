@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+    <link rel="stylesheet" href="basketball.css">
+    <script src="basketball.js"></script>
+
+        <body>
+       
+            <div class = title > Basketball Field Goal % Tracker </div>
+            
+            <div>  &nbsp  </div>
+
+                <table style="width:99%" border="1" style="display: inline-block;" align="center" id="table" >
+                    
+                    <tr>
+                      <th>Shots Made</th>
+                      <th>Total Shots</th>
+                      <th>Field Goal %</th>
+                     
+                      
+                    </tr>
+                    <tr>
+                        <td> <input type="text" id="bucket" value="0" readonly/> </td> 
+                        <td> <input type="text" id="brick" value="0" readonly/> </td> 
+                        <td> <input type="text" id="result" value="0" readonly/> </td> 
+                        <th> <input type="text" id="percent" value="%" readonly /> </th> 
+                    </tr>
+                    <tr>
+                        <td align="center"> <button class="button button1" id="bucket"> <img src="https://cdn.glitch.me/d1fddca7-50ba-4596-aae1-4598c4cb77da%2Fbrick2.png?v=1638239011894" height="100px" width="100px" onclick ="incrementbothValue()" value="Increment Both Value"> </button> </td>
+                        <td align="center"> <button class="button button2" id="brick"> <img src="https://cdn.glitch.me/d1fddca7-50ba-4596-aae1-4598c4cb77da%2Fbucket.png?v=1638238154930" height="100px" width="100px" onclick="incrementValue()" value="Increment Value"> </button> </td>
+                        <td align="center"> <button class="button button3" id="calculate" onclick="solve()"> Calculate </td>
+                        <td align="center"> <button class="button button4" id="clear" onclick="clr()"> Clear  </td>
+                    </tr>
+                  </table>
+
+            
+        </body> 
+</html>
