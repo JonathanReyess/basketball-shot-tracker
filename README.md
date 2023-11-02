@@ -2,6 +2,6 @@ This is a basic website that can be used to calculate the field goal percentage 
 
 The **'bucket'** refers to a shot that has been made whereas the **'brick'** corresponds to a miss.
 
-Field goal percentage is calculated as
+Field goal percentage is calculated using the formula:
 
 _# of shots made / # of shots attempted_
