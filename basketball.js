@@ -2,11 +2,10 @@
 //defining our variables
 var buttons = document.getElementById("bucket");
 buttons.innerHTML =
-  '<img src="https://cdn.glitch.me/d1fddca7-50ba-4596-aae1-4598c4cb77da%2Fbucket.png?v=1638238154930" height="100px" width="100px"" />';
-
+  '<img src="https://cdn.glitch.me/d1fddca7-50ba-4596-aae1-4598c4cb77da%2Fbrick2.png?v=1638239011894" height="100px" width="100px"" />';
 var buttons = document.getElementById("brick");
 buttons.innerHTML =
-  '<img src="https://cdn.glitch.me/d1fddca7-50ba-4596-aae1-4598c4cb77da%2Fbrick2.png?v=1638239011894" height="100px" width="100px"" />';
+'<img src="https://cdn.glitch.me/d1fddca7-50ba-4596-aae1-4598c4cb77da%2Fbucket.png?v=1638238154930" height="100px" width="100px"" />';
 
 
 //function that determines what the brick button does
