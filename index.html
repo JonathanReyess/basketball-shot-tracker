@@ -1,38 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="basketball.js"></script>
+  <title>Basketball Field Goal % Tracker</title>
+</head>
+<body>
 
-    <link rel="stylesheet" href="basketball.css">
-    <script src="basketball.js"></script>
+  <div class="container">
+    <div class="title">
+     
+      <span class="bounce letter">B</span>
+      <span class="bounce letter">a</span>
+      <span class="bounce letter">s</span>
+      <span class="bounce letter">k</span>
+      <span class="bounce letter">e</span>
+      <span class="bounce letter">t</span>
+      <span class="bounce letter">b</span>
+      <span class="bounce letter">a</span>
+      <span class="bounce letter">l</span>
+      <span class="bounce letter">l</span>
+      <span class="letter"> </span> 
+      <span class="letter"> </span>
+      <span class="letter"> </span>
+      <span class="letter">F</span>
+      <span class="letter">i</span>
+      <span class="letter">e</span>
+      <span class="letter">l</span>
+      <span class="letter">d</span>
+      <span class="letter"> </span>
+      <span class="letter">G</span>
+      <span class="letter">o</span>
+      <span class="letter">a</span>
+      <span class="letter">l</span>
+      <span class="letter"> </span>
+      <span class="letter">%</span>
+      <span class="letter"> </span>
+      <span class="letter">T</span>
+      <span class="letter">r</span>
+      <span class="letter">a</span>
+      <span class="letter">c</span>
+      <span class="letter">k</span>
+      <span class="letter">e</span>
+      <span class="letter">r</span>
+      
+    </div>
+    <table class="stats-table">
+      <tr>
+        <th>Shots Made</th>
+        <th>Total Shots</th>
+        <th>Field Goal %</th>
+      </tr>
+      <tr>
+        <td><input type="text" id="bucket" value="0" readonly /></td>
+        <td><input type="text" id="brick" value="0" readonly /></td>
+        <td><input type="text" id="result" value="0" readonly /></td>
+     
+      </tr>
+      <tr>
 
-        <body>
-       
-            <div class = title > Basketball Field Goal % Tracker </div>
-            
-            <div>  &nbsp  </div>
+        <td>
+          <button class="button button1" onclick="incrementbothValue()">
+            <img src="images/bucket-svgrepo-com.svg" alt="Made Shot" width="100" height="50">
+          </button>
+        </td>
 
-                <table style="width:99%" border="1" style="display: inline-block;" align="center" id="table" >
-                    
-                    <tr>
-                      <th>Shots Made</th>
-                      <th>Total Shots</th>
-                      <th>Field Goal %</th>
-                     
-                      
-                    </tr>
-                    <tr>
-                        <td> <input type="text" id="bucket" value="0" readonly/> </td> 
-                        <td> <input type="text" id="brick" value="0" readonly/> </td> 
-                        <td> <input type="text" id="result" value="0" readonly/> </td> 
-                        <th> <input type="text" id="percent" value="%" readonly /> </th> 
-                    </tr>
-                    <tr>
-                        <td align="center"> <button class="button button1" id="bucket"> <img src="https://cdn.glitch.me/d1fddca7-50ba-4596-aae1-4598c4cb77da%2Fbrick2.png?v=1638239011894" height="100px" width="100px" onclick ="incrementbothValue()" value="Increment Both Value"> </button> </td>
-                        <td align="center"> <button class="button button2" id="brick"> <img src="https://cdn.glitch.me/d1fddca7-50ba-4596-aae1-4598c4cb77da%2Fbucket.png?v=1638238154930" height="100px" width="100px" onclick="incrementValue()" value="Increment Value"> </button> </td>
-                        <td align="center"> <button class="button button3" id="calculate" onclick="solve()"> Calculate </td>
-                        <td align="center"> <button class="button button4" id="clear" onclick="clr()"> Clear  </td>
-                    </tr>
-                  </table>
+        <td>
+          <button class="button button2" onclick="incrementValue()">
+            <img src="images/brick-svgrepo-com.svg" alt="Missed Shot" width="100" height="50">
+          </button>
+        </td>
 
-            
-        </body> 
+
+        <td>
+          <button class="button button3" onclick="solve()">
+            <img src="images/calculate-2-svgrepo-com.svg" alt="Calculate" width="100" height="50">
+          </button>
+        </td>
+
+        <td>
+          <button class="button button4" onclick="clr()">
+            <img src="images/clear-svgrepo-com.svg" alt="Clear"  width="100" height="50">
+          </button>
+          </td>
+
+      </tr>
+    </table>
+  </div>
+
+</body>
 </html>
